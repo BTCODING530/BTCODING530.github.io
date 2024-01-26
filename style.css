@@ -71,10 +71,34 @@ main {
 }
 
 #portfolio li:hover {
-  background: #eee;
+  background: #fff200;
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #454545;
+  color: #ff0000;
+}
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #ffff00;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #ff2600;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #ff0000;
 }
