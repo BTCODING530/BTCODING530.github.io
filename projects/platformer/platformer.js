@@ -44,13 +44,13 @@ $(function () {
     createPlatform(80, 540, 300, 30); // long but wide platform located 150 pixels from the left of the screen and 500 pixels from the top of the screen
     createPlatform(800, 600, 300, 20); // short but wide platform located 600 pixels from the left of the screen and 700 pixels from the top of the screen
     createPlatform(550, 450, 300, 20); // short but wide platform located 600 pixels from the left of the screen and 700 pixels from the top of the screen
-    createPlatform(670, 500, 300, 20); // short but wide platform located 670 pixels from the left of the screen and 500 pixels from the top of the screen
+    createPlatform(900, 500, 300, 20); // short but wide platform located 670 pixels from the left of the screen and 500 pixels from the top of the screen
     
     // TODO 2
     createCollectable("steve", 600, 650, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
     createCollectable("grace",300 , 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
     createCollectable("grace", 1300, 500); // creates a "grace" collectible at the coordinates (800, 650), falling with default gravity and bouncing with default bounce %
-    
+    createCollectable("grace", 900, 400); // creates a "grace" collectible at the coordinates (900, 600), falling with default gravity and bouncing with default bounce %
 
 
 
