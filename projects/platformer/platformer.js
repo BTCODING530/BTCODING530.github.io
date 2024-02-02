@@ -56,7 +56,7 @@ $(function () {
 
     // TODO 3
     createCannon("right",350, 400); // cannon on right wall, 550px down shooting once every 10 seconds
-    createCannon("right",200, 900); // cannon on right wall, 400px down shooting once every 8 seconds
+    createCannon("top",400, 900); // cannon on right wall, 400px down shooting once every 8 seconds
     createCannon("left",530, 600); // cannon on right wall, 550px down shooting once every 10 seconds
 
 
