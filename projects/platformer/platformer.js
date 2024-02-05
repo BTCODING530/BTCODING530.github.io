@@ -40,8 +40,8 @@ $(function () {
     /////////////////////////////////////////////////
 
     // TODO 1
-    createPlatform(300, 700, 300, 20); // short but wide platform located 500 pixels from the left of the screen and 700 pixels from the top of the screen
-    createPlatform(80, 540, 300, 30); // long but wide platform located 150 pixels from the left of the screen and 500 pixels from the top of the screen
+    createPlatform(300, 700, 300, 50); // short but wide platform located 500 pixels from the left of the screen and 700 pixels from the top of the screen
+    createPlatform(80, 540, 300, 35); // long but wide platform located 150 pixels from the left of the screen and 500 pixels from the top of the screen
     createPlatform(800, 600, 300, 20); // short but wide platform located 600 pixels from the left of the screen and 700 pixels from the top of the screen
     createPlatform(550, 450, 300, 20); // short but wide platform located 600 pixels from the left of the screen and 700 pixels from the top of the screen
     createPlatform(900, 500, 300, 20); // short but wide platform located 670 pixels from the left of the screen and 500 pixels from the top of the screen
@@ -51,13 +51,13 @@ $(function () {
     createCollectable("grace",300 , 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
     createCollectable("grace", 1300, 500); // creates a "grace" collectible at the coordinates (800, 650), falling with default gravity and bouncing with default bounce %
     createCollectable("grace", 900, 400); // creates a "grace" collectible at the coordinates (900, 600), falling with default gravity and bouncing with default bounce %
-
+    createCollectable("grace", 500, 600); // creates a "grace" collectible at the coordinates (900, 600), falling with default gravity and bouncing with default bounce %
 
 
     // TODO 3
-    createCannon("right",350, 400); // cannon on right wall, 550px down shooting once every 10 seconds
-    createCannon("top",400, 900); // cannon on right wall, 400px down shooting once every 8 seconds
-    createCannon("left",530, 600); // cannon on right wall, 550px down shooting once every 10 seconds
+    createCannon("right",700, 2500); // cannon on right wall, 550px down shooting once every 10 seconds
+    createCannon("top",600, 1600); // cannon on right wall, 400px down shooting once every 8 seconds
+    createCannon("left",300, 1200); // cannon on right wall, 550px down shooting once every 10 seconds
 
 
 
