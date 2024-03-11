@@ -37,15 +37,15 @@
 			/////////////////// SETUP DO NOT DELETE //////////////////////////
 			//////////////////////////////////////////////////////////////////
 			
-			var box = jQuery('.box');	// reference to the HTML .box element
-			var board = jQuery('.board');	// reference to the HTML .board element
+			var box = jQuery(".box");	// reference to the HTML .box element
+			var board = jQuery(".board");	// reference to the HTML .board element
 			var boardWidth = board.width();	// the maximum X-Coordinate of the screen
 
 			// Every 50 milliseconds, call the update Function (see below)
 			setInterval(update, 50);
 			
 			// Every time the box is clicked, call the handleBoxClick Function (see below)
-			box.on('click', handleBoxClick);
+			box.on("click", handleBoxClick);
 
 			// moves the Box to a new position on the screen along the X-Axis
 			function moveBoxTo(newPositionX) {
@@ -79,7 +79,7 @@
 					speed= -speed;
 				}
 				if (positionX < 0){
-					speed= speed *-1;
+					speed= speed * -1;
 				}
 			}
 
@@ -95,11 +95,11 @@
 				points = points + 1;
 				speed = speed + 3;
 				changeBoxText(points);
-				if (speed >0){
+				if (speed > 0){
 					speed = speed + 3;
 				}
 				else if (speed < 0) {
-					speed=speed - 3
+					speed = speed - 3
 				}
 			
 			};
